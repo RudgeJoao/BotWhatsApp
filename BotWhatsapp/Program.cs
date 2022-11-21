@@ -16,7 +16,7 @@ namespace BotWhatsapp // Note: actual namespace depends on the project name.
             string url = "https://web.whatsapp.com/";
             List<string> contatos = new List<string>()
             {
-                "Toma Delcolli"
+                "ESCREVA O NOME DO CONTATO EXATAMENTE COMO ESTÁ AQUI"
             };
 
             ChromeDriver driver = new ChromeDriver();
@@ -59,7 +59,7 @@ namespace BotWhatsapp // Note: actual namespace depends on the project name.
                     // <div tabindex="-1" class="p3_M1">
                     
                     var chatE1 = driver.FindElement(By.ClassName("p3_M1"));
-                    chatE1.SendKeys("TOMA DELCOLLI NHEM NHEM ");
+                    chatE1.SendKeys("ESCREVA A MENSAGEM AQUI");
 
                     //Thread.Sleep(500);
 
